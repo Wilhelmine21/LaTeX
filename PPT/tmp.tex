@@ -9,7 +9,9 @@
 \setbeamertemplate{navigation symbols}{}% 隱藏提示欄
 
 \begin{document}
-\title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]{Your Title} 
+\title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]
+{Your Title}
+
 \author{Your Name}
 \date{date}
 
@@ -18,7 +20,7 @@
 \titlepage
 \end{frame}
 
-\section{pause}
+\section{內容控制}
 \begin{frame}
 \frametitle{pause} %投影片標題
 %%% content %%%
@@ -57,6 +59,31 @@
 \item<1-> 第一項
 \item<2-> 第二項
 \item<3-> 第三項
+\end{itemize}
+\end{frame}
+
+\section{文字變化}
+\begin{frame}
+\frametitle{強調文字} %投影片標題
+將重點標紅字，在beamer使用\alert{\textbackslash alert}。\\ 
+語法:
+\textbackslash alert $\lbrace$關鍵字$\rbrace$。\\ 
+在特定投影片才強調  
+\alert<2>{第二張}才重要。  
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{文字顏色} %投影片標題
+將文字以其他顏色顯示，其語法如下:\\
+$\lbrace$\textbackslash color $\lbrace$blue$\rbrace$ $\lbrace$藍色的文字$\rbrace$ $\rbrace$\\
+效果如下:\\
+{\color{blue}{藍色的文字}}\\[10pt]
+在特定投影片才變色:\\
+只有在{\color<2>{green}{第二張}}才是綠色的。\\
+\begin{itemize}
+\item 顏色名稱與xcolor的dvipsnames 或svgnames有關。
 \end{itemize}
 \end{frame}
 

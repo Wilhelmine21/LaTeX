@@ -26,7 +26,7 @@
     ```
     * 將title那行改成如下，即可在下方看見標題與頁數
         ```LaTeX
-        \title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]{Your Title}
+        \title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]
         ```
     * Template:
     </br><img src="./img/tmp_page1.png" width="50%" height="50%"/></br>
@@ -103,7 +103,7 @@
 * 暫停
     * 使用`\pause`來分段
         ```Latex
-        \section{title}
+        \section{內容控制}
         \begin{frame}
         \frametitle{title} %投影片標題
         %%% content %%%
@@ -163,3 +163,36 @@
         ```
         * Template:
         </br><img src="./img/tmp_page511.png" width="50%" height="50%"/><img src="./img/tmp_page512.png" width="50%" height="50%"/><img src="./img/tmp_page513.png" width="50%" height="50%"/></br>
+## 文字變化
+* 標紅重點字
+    * 使用`\alert`來標紅
+    ```Latex
+    \section{文字變化}
+    \begin{frame}
+    \frametitle{強調文字} %投影片標題
+    將重點標紅字，在beamer使用\alert{\textbackslash alert}。\\ 
+    語法:
+    \textbackslash alert $\lbrace$關鍵字$\rbrace$。\\ 
+    指定在特定投影片才強調  
+    \alert<2>{第二張}才重要。  
+    \end{frame}
+    ```
+    * Template:
+    </br><img src="./img/tmp_page614.png" width="50%" height="50%"/><img src="./img/tmp_page615.png" width="50%" height="50%"/></br>
+* 文字顏色
+    ```Latex
+    \begin{frame}
+    \frametitle{文字顏色} %投影片標題
+    將文字以其他顏色顯示，其語法如下:\\
+    $\lbrace$\textbackslash color $\lbrace$blue$\rbrace$ $\lbrace$藍色的文字$\rbrace$ $\rbrace$\\
+    效果如下:\\
+    {\color{blue}{藍色的文字}}\\[10pt]
+    在特定投影片才變色:\\
+    只有在{\color<2>{green}{第二張}}才是綠色的。\\
+    \begin{itemize}
+    \item 顏色名稱與xcolor的dvipsnames 或svgnames有關。
+    \end{itemize}
+    \end{frame}
+    ```
+    * Template:
+    </br><img src="./img/tmp_page716.png" width="50%" height="50%"/><img src="./img/tmp_page717.png" width="50%" height="50%"/></br>
