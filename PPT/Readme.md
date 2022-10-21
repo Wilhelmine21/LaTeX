@@ -133,47 +133,33 @@
     * Template:
         </br><img src="./img/tmp_page45.png" width="50%" height="50%"/><img src="./img/tmp_page46.png" width="50%" height="50%"/><img src="./img/tmp_page47.png" width="50%" height="50%"/></br>
 
-* 更精確的控制0
-    ```Latex
-    \begin{frame}
-    \frametitle{更精確的控制} %投影片標題
-    \begin{itemize}
-    \item<1-> 第一項
-    \item<2-> 第二項
-    \item<3-> 第三項
-    \end{itemize}
-    \end{frame}
-    ```
-    * Template:
-    </br><img src="./img/tmp_page58.png" width="50%" height="50%"/><img src="./img/tmp_page59.png" width="50%" height="50%"/><img src="./img/tmp_page510.png" width="50%" height="50%"/></br>
-
-* 更精確的控制1
+* 更精確的控制- only vs uncover
     * \only<2->{第二張以後才會出現}
-    ```Latex
-    \begin{frame}
-    \frametitle{更精確的控制1} %投影片標題
-    \begin{itemize}
-    \item<1-> 第一項
-    \only<2->{第二張以後才會出現}
-    \item<2-> 第二項
-    \item<3-> 第三項
-    \end{itemize}
-    \end{frame}
-    ```
-    * Template:
-    </br><img src="./img/tmp_page68.png" width="50%" height="50%"/><img src="./img/tmp_page69.png" width="50%" height="50%"/><img src="./img/tmp_page610.png" width="50%" height="50%"/></br>
-* 更精確的控制2
+        ```Latex
+        \begin{frame}
+        \frametitle{uncover} %投影片標題
+        \uncover<2->{第二張以後才會出現uncover}
+        \begin{itemize}
+        \item<1-> 第一項
+        \item<2-> 第二項
+        \item<3-> 第三項
+        \end{itemize}
+        \end{frame}
+        ```
+        * Template:
+        </br><img src="./img/tmp_page58.png" width="50%" height="50%"/><img src="./img/tmp_page59.png" width="50%" height="50%"/><img src="./img/tmp_page510.png" width="50%" height="50%"/></br>
+
     * \uncover<2->{第二張以後才會出現}
-    ```Latex
-    \begin{frame}
-    \frametitle{更精確的控制2} %投影片標題
-    \begin{itemize}
-    \item<1-> 第一項
-    \uncover<2->{第二張以後才會出現}
-    \item<2-> 第二項
-    \item<3-> 第三項
-    \end{itemize}
-    \end{frame}
-    ```
-    * Template:
-    </br><img src="./img/tmp_page711.png" width="50%" height="50%"/><img src="./img/tmp_page712.png" width="50%" height="50%"/><img src="./img/tmp_page713.png" width="50%" height="50%"/></br>
+        ```Latex
+        \begin{frame}
+        \frametitle{uncover} %投影片標題
+        \uncover<2->{第二張以後才會出現uncover}
+        \begin{itemize}
+        \item<1-> 第一項
+        \item<2-> 第二項
+        \item<3-> 第三項
+        \end{itemize}
+        \end{frame}
+        ```
+        * Template:
+        </br><img src="./img/tmp_page511.png" width="50%" height="50%"/><img src="./img/tmp_page512.png" width="50%" height="50%"/><img src="./img/tmp_page513.png" width="50%" height="50%"/></br>
