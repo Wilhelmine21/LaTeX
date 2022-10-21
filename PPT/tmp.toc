@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{Cover}{1}{0}{1}
-\beamer@sectionintoc {2}{title}{2}{0}{2}
