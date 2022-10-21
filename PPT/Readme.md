@@ -36,6 +36,12 @@
     ```
     * Template:
     </br><img src="./img/tmp_page2.png" width="50%" height="50%"/></br>
+5. 不顯示提示欄
+    ```LaTeX
+    \setbeamertemplate{navigation symbols}{}% 隱藏提示欄
+    ```
+    * Template:
+    </br><img src="./img/tmp_page1_nohint.png" width="50%" height="50%"/><img src="./img/tmp_page2_nohint.png" width="50%" height="50%"/></br>
 
 ## 主題變換
 ```LaTeX
