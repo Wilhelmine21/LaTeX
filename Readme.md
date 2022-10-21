@@ -51,14 +51,14 @@
 \usetheme{ThemeName}
 ```
 ### 內建主題  
-    |AnnArbor|Dresden |Marburg |
-    |:-:|:-:|:-:|
-    |Antibes |Frankfurt |Montpellier |
-    |Bergen |Goettingen |PaloAlto |
-    |Berkeley |Hannover |Pittsburgh |
-    |Berlin |Ilmenau |Rochester |
-    |Boadilla |JuanLesPins |Singapore |
-    |CambridgeUS |Luebeck |Szeged |
+|AnnArbor|Dresden |Marburg |
+|:-:|:-:|:-:|
+|Antibes |Frankfurt |Montpellier |
+|Bergen |Goettingen |PaloAlto |
+|Berkeley |Hannover |Pittsburgh |
+|Berlin |Ilmenau |Rochester |
+|Boadilla |JuanLesPins |Singapore |
+|CambridgeUS |Luebeck |Szeged |
 
 ### 1. 顏色自定義
 ```LaTeX
