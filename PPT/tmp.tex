@@ -8,9 +8,8 @@
 \setCJKmainfont{微軟正黑體}
 \setbeamertemplate{navigation symbols}{}% 隱藏提示欄
 
-
 \begin{document}
-\title{Your Title} 
+\title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]{Your Title} 
 \author{Your Name}
 \date{date}
 
@@ -19,10 +18,46 @@
 \titlepage
 \end{frame}
 
-\section{title}
+\section{pause}
 \begin{frame}
-\frametitle{title} %投影片標題
+\frametitle{pause} %投影片標題
 %%% content %%%
-
+因為...
+\pause
+然後...
+\pause
+所以...
 \end{frame}
+
+\begin{frame}
+\frametitle{item+pause} %投影片標題
+\begin{itemize}
+\item 第一項
+\pause
+\item 第二項
+\pause
+\item 第三項
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{更精確的控制1} %投影片標題
+\begin{itemize}
+\item<1-> 第一項
+\only<2->{第二張以後才會出現}
+\item<2-> 第二項
+\item<3-> 第三項
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{更精確的控制2} %投影片標題
+\begin{itemize}
+\item<1-> 第一項
+\uncover<2->{第二張以後才會出現}
+\item<2-> 第二項
+\item<3-> 第三項
+\end{itemize}
+\end{frame}
+
 \end{document}

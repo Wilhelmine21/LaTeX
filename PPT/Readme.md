@@ -24,6 +24,10 @@
     \titlepage
     \end{frame}
     ```
+    * 將title那行改成如下，即可在下方看見標題與頁數
+        ```LaTeX
+        \title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]{Your Title}
+        ```
     * Template:
     </br><img src="./img/tmp_page1.png" width="50%" height="50%"/></br>
 
@@ -42,7 +46,6 @@
     ```
     * Template:
     </br><img src="./img/tmp_page1_nohint.png" width="50%" height="50%"/><img src="./img/tmp_page2_nohint.png" width="50%" height="50%"/></br>
-
 ## 主題變換
 ```LaTeX
 \usetheme{ThemeName}
@@ -96,3 +99,81 @@
         |circle |2D 圓形|
         |rectangle |2D 方形|
         |default |2D 三角|
+## 內容控制
+* 暫停
+    * 使用`\pause`來分段
+        ```Latex
+        \section{title}
+        \begin{frame}
+        \frametitle{title} %投影片標題
+        %%% content %%%
+        因為...
+        \pause
+        然後...
+        \pause
+        所以...
+        \end{frame}
+        ```
+    * Template:
+    </br><img src="./img/tmp_page32.png" width="50%" height="50%"/><img src="./img/tmp_page33.png" width="50%" height="50%"/><img src="./img/tmp_page34.png" width="50%" height="50%"/></br>
+
+* 條列式也可以用`\pause`暫停
+    ```Latex
+    \begin{frame}
+    \frametitle{item+pause} %投影片標題
+    \begin{itemize}
+    \item 第一項
+    \pause
+    \item 第二項
+    \pause
+    \item 第三項
+    \end{itemize}
+    \end{frame}
+    ```
+    * Template:
+        </br><img src="./img/tmp_page45.png" width="50%" height="50%"/><img src="./img/tmp_page46.png" width="50%" height="50%"/><img src="./img/tmp_page47.png" width="50%" height="50%"/></br>
+
+* 更精確的控制0
+    ```Latex
+    \begin{frame}
+    \frametitle{更精確的控制} %投影片標題
+    \begin{itemize}
+    \item<1-> 第一項
+    \item<2-> 第二項
+    \item<3-> 第三項
+    \end{itemize}
+    \end{frame}
+    ```
+    * Template:
+    </br><img src="./img/tmp_page58.png" width="50%" height="50%"/><img src="./img/tmp_page59.png" width="50%" height="50%"/><img src="./img/tmp_page510.png" width="50%" height="50%"/></br>
+
+* 更精確的控制1
+    * \only<2->{第二張以後才會出現}
+    ```Latex
+    \begin{frame}
+    \frametitle{更精確的控制1} %投影片標題
+    \begin{itemize}
+    \item<1-> 第一項
+    \only<2->{第二張以後才會出現}
+    \item<2-> 第二項
+    \item<3-> 第三項
+    \end{itemize}
+    \end{frame}
+    ```
+    * Template:
+    </br><img src="./img/tmp_page68.png" width="50%" height="50%"/><img src="./img/tmp_page69.png" width="50%" height="50%"/><img src="./img/tmp_page610.png" width="50%" height="50%"/></br>
+* 更精確的控制2
+    * \uncover<2->{第二張以後才會出現}
+    ```Latex
+    \begin{frame}
+    \frametitle{更精確的控制2} %投影片標題
+    \begin{itemize}
+    \item<1-> 第一項
+    \uncover<2->{第二張以後才會出現}
+    \item<2-> 第二項
+    \item<3-> 第三項
+    \end{itemize}
+    \end{frame}
+    ```
+    * Template:
+    </br><img src="./img/tmp_page711.png" width="50%" height="50%"/><img src="./img/tmp_page712.png" width="50%" height="50%"/><img src="./img/tmp_page713.png" width="50%" height="50%"/></br>
