@@ -4,6 +4,7 @@
 \usetheme{Warsaw}
 \useoutertheme{miniframes}
 
+\usepackage{verbatim}
 \usepackage{xeCJK}
 \setCJKmainfont{微軟正黑體}
 \setbeamertemplate{navigation symbols}{}% 隱藏提示欄
@@ -14,12 +15,12 @@
 
 \author{Your Name}
 \date{date}
-
-\section{Cover}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{封面}
 \begin{frame}
 \titlepage
 \end{frame}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{內容控制}
 \begin{frame}
 \frametitle{pause} %投影片標題
@@ -30,7 +31,7 @@
 \pause
 所以...
 \end{frame}
-
+%%%----------------------------%%%
 \begin{frame}
 \frametitle{item+pause} %投影片標題
 \begin{itemize}
@@ -41,7 +42,7 @@
 \item 第三項
 \end{itemize}
 \end{frame}
-
+%%%----------------------------%%%
 \begin{frame}
 \frametitle{only} %投影片標題
 \only<2->{第二張以後才會出現only}
@@ -51,7 +52,7 @@
 \item<3-> 第三項
 \end{itemize}
 \end{frame}
-
+%%%----------------------------%%%
 \begin{frame}
 \frametitle{uncover} %投影片標題
 \uncover<2->{第二張以後才會出現uncover}
@@ -61,7 +62,7 @@
 \item<3-> 第三項
 \end{itemize}
 \end{frame}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{文字變化}
 \begin{frame}
 \frametitle{強調文字} %投影片標題
@@ -71,9 +72,7 @@
 在特定投影片才強調  
 \alert<2>{第二張}才重要。  
 \end{frame}
-
-
-
+%%%----------------------------%%%
 \begin{frame}
 \frametitle{文字顏色} %投影片標題
 將文字以其他顏色顯示，其語法如下:\\
@@ -86,6 +85,48 @@ $\lbrace$\textbackslash color $\lbrace$blue$\rbrace$ $\lbrace$藍色的文字$\r
 \item 顏色名稱與xcolor的dvipsnames 或svgnames有關。
 \end{itemize}
 \end{frame}
+%%%----------------------------%%%
+\begin{frame}
+\frametitle{文字框} %投影片標題
+\begin{block}{小重點}
+小重點
+\end{block}
+
+\begin{alertblock}{大重點}
+大重點
+\end{alertblock}
+\end{frame}
+%%%----------------------------%%%
+\begin{frame}
+\frametitle{內建定理}
+\begin{theorem}
+I will translate \structure{\translate[to=spanish]{theorem}} but not theorem
+\end{theorem}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{其他}
+%\begin{frame}[fragile=singleslide]
+\begin{frame}[fragile]
+\frametitle{顯示程式碼}
+\begin{block}{程式碼}
+\begin{verbatim}
+for i in range(0,100):
+    print i
+\end{verbatim}
+\end{block}
+\end{frame}
+%%%----------------------------%%%
+\begin{frame}[label=here]
+\frametitle{跳到指定的投影片-目的地}
+COME HERE!!!
+\end{frame}
+%%%----------------------------%%%
+\begin{frame}
+\frametitle{跳到指定的投影片-跳轉地}
+\hyperlink{here}{\beamerbutton{GOOOOOOO~}}
+\end{frame}
+
+
 
 
 \end{document}
