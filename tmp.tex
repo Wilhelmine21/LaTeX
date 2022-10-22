@@ -1,8 +1,15 @@
 \documentclass[xcolor=svgnames]{beamer}
+%\documentclass[handout, xcolor=svgnames]{beamer}
 \usecolortheme[named=LightSlateGrey]{structure}
 \setbeamercolor{normal text}{fg=black,bg=AliceBlue}
 \usetheme{Warsaw}
 \useoutertheme{miniframes}
+
+\usepackage{pgfpages}
+%印出2張/1page, 直向
+%\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
+%印出4張/1page, 橫向
+\pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm, landscape]
 
 \usepackage{verbatim}
 \usepackage{xeCJK}
@@ -123,10 +130,23 @@ COME HERE!!!
 %%%----------------------------%%%
 \begin{frame}
 \frametitle{跳到指定的投影片-跳轉地}
-\hyperlink{here}{\beamerbutton{GOOOOOOO~}}
+\hyperlink{here}{\beamerbutton{GOOOOOOO}}
 \end{frame}
-
-
-
+%%%----------------------------%%%
+\begin{frame}
+\frametitle{多欄式的投影片}
+\begin{columns}
+\begin{column}{5cm} % 5cm高的欄
+欄一
+\end{column}
+\begin{column}{5cm} % 5cm高的欄
+欄二
+\end{column}
+\end{columns}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\section{}
+%%\begin{frame}
+%%\end{frame}
 
 \end{document}
