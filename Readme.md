@@ -319,7 +319,18 @@ COME HERE!!!
 \pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
 ```
 * Template:
-    </br><img src="./img/tmp_2in1_0106.png" width="50%" height="50%"/></br><img src="./img/tmp_2in1_0712.png" width="50%" height="50%"/></br>
+    </br><img src="./img/tmp_2in1_page1.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page2.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page3.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page4.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page5.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page6.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page7.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page8.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page9.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page10.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page11.png" width="25%" height="25%"/>
+    <img src="./img/tmp_2in1_page12.png" width="25%" height="25%"/></br>
 
 <!-- * pgfpages 套件 + Xelatex
     * 需加入以下指令
