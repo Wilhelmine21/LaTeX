@@ -3,37 +3,37 @@
 * Beamer
 ## 目錄
 * I. [基本使用](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/BasicUse.md)  
-    * 1. 開頭引用
-    * 2. 中文使用與字體指定
-    * 3. 投影片首頁資訊
-    * 4. 加入投影片與標題
-    * 5. 不顯示提示欄
+    * 1. [開頭引用](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/BasicUse.md#1-%E9%96%8B%E9%A0%AD%E5%BC%95%E7%94%A8)
+    * 2. [中文使用與字體指定](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/BasicUse.md#2-%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E8%88%87%E5%AD%97%E9%AB%94%E6%8C%87%E5%AE%9A)
+    * 3. [投影片首頁資訊](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/BasicUse.md#3-%E6%8A%95%E5%BD%B1%E7%89%87%E9%A6%96%E9%A0%81%E8%B3%87%E8%A8%8A)
+    * 4. [加入投影片與標題](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/BasicUse.md#4-%E5%8A%A0%E5%85%A5%E6%8A%95%E5%BD%B1%E7%89%87%E8%88%87%E6%A8%99%E9%A1%8C)
+    * 5. [不顯示提示欄](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/BasicUse.md#5-%E4%B8%8D%E9%A1%AF%E7%A4%BA%E6%8F%90%E7%A4%BA%E6%AC%84)
 * II. [主題變換](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Themes.md)
-    * 1. 顏色自定義
-    * 2. 樣式修改
+    * 1. [顏色自定義](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Themes.md#1-%E9%A1%8F%E8%89%B2%E8%87%AA%E5%AE%9A%E7%BE%A9)
+    * 2. [樣式修改](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Themes.md#2-%E6%A8%A3%E5%BC%8F%E4%BF%AE%E6%94%B9)
 * III. [內容控制](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/content.md)
-    * 1. 使用\pause來分段
-    * 2. 條列式也可以用\pause暫停
-    * 3. 更精確的控制- only vs uncover
+    * 1. [使用\pause來分段](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/content.md#1%E4%BD%BF%E7%94%A8pause%E4%BE%86%E5%88%86%E6%AE%B5)
+    * 2. [條列式也可以用\pause暫停](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/content.md#2%E6%A2%9D%E5%88%97%E5%BC%8F%E4%B9%9F%E5%8F%AF%E4%BB%A5%E7%94%A8pause%E6%9A%AB%E5%81%9C)
+    * 3. [更精確的控制- only vs uncover](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/content.md#3%E6%9B%B4%E7%B2%BE%E7%A2%BA%E7%9A%84%E6%8E%A7%E5%88%B6--only-vs-uncover)
 * IV. [文字變化](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/font.md)
-    * 1. 標紅重點字
-    * 2. 文字顏色
-    * 3. 文字框
-    * 4. 內建定理
+    * 1. [標紅重點字](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/font.md#1%E6%A8%99%E7%B4%85%E9%87%8D%E9%BB%9E%E5%AD%97)
+    * 2. [文字顏色](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/font.md#2-%E6%96%87%E5%AD%97%E9%A1%8F%E8%89%B2)
+    * 3. [文字框](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/font.md#3-%E6%96%87%E5%AD%97%E6%A1%86)
+    * 4. [內建定理](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/font.md#4-%E5%85%A7%E5%BB%BA%E5%AE%9A%E7%90%86)
 * V. [其他](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Others.md)
-    * 1. 顯示程式碼
-    * 2. 文中引用程式碼
-    * 3. 跳到指定的投影片
-    * 4. 多欄式的投影片
-    * 5. 縮小參數&印出頁碼指令
+    * 1. [顯示程式碼](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Others.md#1%E9%A1%AF%E7%A4%BA%E7%A8%8B%E5%BC%8F%E7%A2%BC)
+    * 2. [文中引用程式碼](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Others.md#2%E6%96%87%E4%B8%AD%E5%BC%95%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%A2%BC)
+    * 3. [跳到指定的投影片](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Others.md#3%E8%B7%B3%E5%88%B0%E6%8C%87%E5%AE%9A%E7%9A%84%E6%8A%95%E5%BD%B1%E7%89%87)
+    * 4. [多欄式的投影片](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Others.md#4%E5%A4%9A%E6%AC%84%E5%BC%8F%E7%9A%84%E6%8A%95%E5%BD%B1%E7%89%87)
+    * 5. [縮小參數&印出頁碼指令](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Others.md#5%E7%B8%AE%E5%B0%8F%E5%8F%83%E6%95%B8%E5%8D%B0%E5%87%BA%E9%A0%81%E7%A2%BC%E6%8C%87%E4%BB%A4)
 * VI. [印講義](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Notes.md)
-    * 1. 加入handout 參數
-    * 2. 1Page A4->印出N張投影片
-    * 3. 橫向印出
-    * 4. 有筆記空間       
+    * 1. [加入handout 參數](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Notes.md#1%E5%8A%A0%E5%85%A5handout-%E5%8F%83%E6%95%B8)
+    * 2. [1Page A4->印出N張投影片](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Notes.md#2-1page-a4-%E5%8D%B0%E5%87%BAn%E5%BC%B5%E6%8A%95%E5%BD%B1%E7%89%87)
+    * 3. [橫向印出](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Notes.md#3%E6%A9%AB%E5%90%91%E5%8D%B0%E5%87%BA)
+    * 4. [有筆記空間](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/Notes.md#4%E6%9C%89%E7%AD%86%E8%A8%98%E7%A9%BA%E9%96%93)   
 * VII. [進階](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/MoreTips.md)
-    * 1. 加入Logo
-    * 2. 自訂顏色
-    * 3. beamercolor
-    * 4. 以圖片為背景
-    * 5. 加入影片[win10有問題]
+    * 1. [加入Logo](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/MoreTips.md#1%E5%8A%A0%E5%85%A5logo)
+    * 2. [自訂顏色](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/MoreTips.md#2%E8%87%AA%E8%A8%82%E9%A1%8F%E8%89%B2)
+    * 3. [beamercolor](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/MoreTips.md#3beamercolor)
+    * 4. [以圖片為背景](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/MoreTips.md#4%E4%BB%A5%E5%9C%96%E7%89%87%E7%82%BA%E8%83%8C%E6%99%AF)
+    * 5. [加入影片[win10有問題]](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT/blob/main/MoreTips.md#5%E5%8A%A0%E5%85%A5%E5%BD%B1%E7%89%87win10%E6%9C%89%E5%95%8F%E9%A1%8C)
