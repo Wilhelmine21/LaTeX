@@ -37,7 +37,8 @@
     * 3. [beamercolor](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#3beamercolor)
     * 4. [以圖片為背景](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#4%E4%BB%A5%E5%9C%96%E7%89%87%E7%82%BA%E8%83%8C%E6%99%AF)
     * 5. [加入影片[win10有問題]](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#5%E5%8A%A0%E5%85%A5%E5%BD%B1%E7%89%87win10%E6%9C%89%E5%95%8F%E9%A1%8C)
-## 基本使用 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+## <div style="float:left;">I. 基本使用</div><div style="float:right;">[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) </div></br>
+
 ### 1. 開頭引用
 ```LaTeX
 \documentclass{beamer}
@@ -82,7 +83,8 @@
 ```
 * Template:
     </br><img src="./img/tmp_page1_nohint.png" width="50%" height="50%"/><img src="./img/tmp_page2_nohint.png" width="50%" height="50%"/></br>
-## 主題變換 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+## <div style="float:left;">II. 主題變換</div><div style="float:right;">[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) </div></br>
+
 ```LaTeX
 \usetheme{ThemeName}
 ```
@@ -135,7 +137,8 @@
 |circle |2D 圓形|
 |rectangle |2D 方形|
 |default |2D 三角|
-## 內容控制 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+## <div style="float:left;">III. 內容控制</div><div style="float:right;">[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) </div></br>
+
 ### 1.使用`\pause`來分段
 ```Latex
 \section{內容控制}
@@ -198,7 +201,8 @@
 ```
 * Template:
     </br><img src="./img/tmp_page511.png" width="50%" height="50%"/><img src="./img/tmp_page512.png" width="50%" height="50%"/><img src="./img/tmp_page513.png" width="50%" height="50%"/></br>
-## 文字變化 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+## <div style="float:left;">IV. 文字變化</div><div style="float:right;">[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) </div></br>
+
 ### 1.標紅重點字
 * 使用`\alert`來標紅
 ```Latex
@@ -260,7 +264,8 @@ I will translate \structure{\translate[to=spanish]{theorem}} but not theorem
 ```
 * Template:
     </br><center><img src="./img/tmp_page919.png" width="50%" height="50%"/></center></br>
-## 其他 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+## <div style="float:left;">V. 其他</div><div style="float:right;">[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) </div></br>
+
 ### 1.顯示程式碼
 * Beamer ---> 引用verbatim
     * 設定fragile
@@ -339,7 +344,8 @@ COME HERE!!!
 * 印出頁碼指令
     * `\insertframenumber` 會印出目前投影片頁碼,
     * `\inserttotalframenumber` 會印出總頁碼。
-## 印講義 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+## <div style="float:left;">VI. 印講義</div><div style="float:right;">[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) </div></br>
+
 * 不想要有overlay => 每次就一張
 ### 1.加入handout 參數
 ```Latex
@@ -403,7 +409,8 @@ border shrink=5mm]
     </br><center><img src="./img/tmp_NoteRight_page1.png" width="50%" height="50%"/></center></br>
     * 橫向:
     </br><center><img src="./img/tmp_NoteHorizontal_page1.png" width="50%" height="50%"/></center></br>
-## 進階 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+## <div style="float:left;">VII. 進階</div><div style="float:right;">[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) </div></br>
+<!-- ## 進階 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) -->
 ### 1.加入Logo
 * logo.png
 </br><center><img src="logo.png" width="25%" height="25%"/></center></br>  
