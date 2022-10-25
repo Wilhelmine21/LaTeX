@@ -457,7 +457,7 @@ border shrink=5mm]
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/Wilhelmine21">Home</a><br>
+      <td align="center" frame=void><a href="https://github.com/Wilhelmine21">Home</a><br>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
