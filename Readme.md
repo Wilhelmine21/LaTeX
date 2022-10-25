@@ -442,5 +442,4 @@ border shrink=5mm]
 \usepackage{multimedia}
 \movie[width=5cm,height=2.8cm,loop]{}{test.avi}
 ```
-<!-- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) -->
-[<center><button type="button">TOP</button></center>](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
