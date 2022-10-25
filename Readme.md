@@ -446,7 +446,7 @@ border shrink=5mm]
 <!-- <center><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></center> -->
 
 <!-- <p style="text-align:left;"><a href="https://github.com/Wilhelmine21">Home</a><span style="float:right;"><a href="https://github.com/Wilhelmine21/LaTeX-tikz#latex">LaTeX-tikz</a></span></p> -->
-<table align="center" frame=void>
+<table align="center">
   <tr>
     <td><a href="https://github.com/Wilhelmine21">Home</a></td>
     <td><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></td>
