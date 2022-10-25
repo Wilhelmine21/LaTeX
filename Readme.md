@@ -443,6 +443,15 @@ border shrink=5mm]
 \movie[width=5cm,height=2.8cm,loop]{}{test.avi}
 ```
 <!-- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) -->
-<center><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></center>
+<!-- <center><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></center> -->
 
-<p style="text-align:left;"><a href="https://github.com/Wilhelmine21">Home</a><span style="float:right;"><a href="https://github.com/Wilhelmine21/LaTeX-tikz#latex">LaTeX-tikz</a></span></p>
+<!-- <p style="text-align:left;"><a href="https://github.com/Wilhelmine21">Home</a><span style="float:right;"><a href="https://github.com/Wilhelmine21/LaTeX-tikz#latex">LaTeX-tikz</a></span></p> -->
+<center>
+<table>
+  <tr>
+    <td>Home</td>
+    <td><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></td>
+    <td>LaTeX-tikz</td>
+  </tr>
+</table>
+</center>
