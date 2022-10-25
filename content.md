@@ -1,4 +1,4 @@
-# 內容控制
+# 內容控制 --- [Back](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
 ### 1.使用`\pause`來分段
 ```Latex
 \section{內容控制}

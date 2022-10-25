@@ -1,4 +1,4 @@
-## 印講義
+## 印講義 --- [Back](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
 * 不想要有overlay => 每次就一張
 ### 1.加入handout 參數
 ```Latex
