@@ -65,7 +65,7 @@
     \title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]
     ```
 * Template:
-    </br><img src="./img/tmp_page1.png" width="50%" height="50%"/></br>
+    </br><center><img src="./img/tmp_page1.png" width="50%" height="50%"/></center></br>
 
 ### 4. 加入投影片與標題
 ```LaTeX
@@ -75,7 +75,7 @@
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page2.png" width="50%" height="50%"/></br>
+    </br><center><img src="./img/tmp_page2.png" width="50%" height="50%"/></center></br>
 ### 5. 不顯示提示欄
 ```LaTeX
 \setbeamertemplate{navigation symbols}{}% 隱藏提示欄
@@ -213,7 +213,7 @@
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page614.png" width="50%" height="50%"/><img src="./img/tmp_page615.png" width="50%" height="50%"/></br>
+    </br><center><img src="./img/tmp_page614.png" width="50%" height="50%"/><img src="./img/tmp_page615.png" width="50%" height="50%"/></center></br>
 ### 2. 文字顏色
 ```Latex
 \begin{frame}
@@ -230,7 +230,7 @@ $\lbrace$\textbackslash color $\lbrace$blue$\rbrace$ $\lbrace$藍色的文字$\r
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page716.png" width="50%" height="50%"/><img src="./img/tmp_page717.png" width="50%" height="50%"/></br>
+    </br><center><img src="./img/tmp_page716.png" width="50%" height="50%"/><img src="./img/tmp_page717.png" width="50%" height="50%"/></center></br>
 ### 3. 文字框
 ```Latex
 \begin{frame}
@@ -245,7 +245,7 @@ $\lbrace$\textbackslash color $\lbrace$blue$\rbrace$ $\lbrace$藍色的文字$\r
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page818.png" width="50%" height="50%"/></br>
+    </br><center><img src="./img/tmp_page818.png" width="50%" height="50%"/></center></br>
 
 ### 4. 內建定理
 * definition, lemma, theorem, corollary, proof, example, examples
@@ -259,7 +259,7 @@ I will translate \structure{\translate[to=spanish]{theorem}} but not theorem
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page919.png" width="50%" height="50%"/></br>
+    </br><center><img src="./img/tmp_page919.png" width="50%" height="50%"/></center></br>
 ## 其他 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
 ### 1.顯示程式碼
 * Beamer ---> 引用verbatim
@@ -286,7 +286,7 @@ for i in range(0,100):
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page1020.png" width="50%" height="50%"/></br>
+</br><center><img src="./img/tmp_page1020.png" width="50%" height="50%"/></center></br>
 
 ### 2.文中引用程式碼
 * minted 套件
@@ -310,7 +310,7 @@ COME HERE!!!
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page1121.png" width="50%" height="50%"/><img src="./img/tmp_page1122.png" width="50%" height="50%"/></br>
+    </br><center><img src="./img/tmp_page1121.png" width="50%" height="50%"/><img src="./img/tmp_page1122.png" width="50%" height="50%"/></center></br>
 
 ### 4.多欄式的投影片
 ```Latex
@@ -327,7 +327,7 @@ COME HERE!!!
 \end{frame}
 ```
 * Template:
-    </br><img src="./img/tmp_page1223.png" width="50%" height="50%"/></br>
+</br><center><img src="./img/tmp_page1223.png" width="50%" height="50%"/></center></br>
 
 ### 5.縮小參數&印出頁碼指令
 * 縮小參數
@@ -353,7 +353,7 @@ COME HERE!!!
 \pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
 ```
 * Template:
-    </br><img src="./img/tmp_2in1_page1.png" width="15%" height="15%"/>
+    </br><center><img src="./img/tmp_2in1_page1.png" width="15%" height="15%"/>
     <img src="./img/tmp_2in1_page2.png" width="15%" height="15%"/>
     <img src="./img/tmp_2in1_page3.png" width="15%" height="15%"/>
     <img src="./img/tmp_2in1_page4.png" width="15%" height="15%"/>
@@ -364,7 +364,7 @@ COME HERE!!!
     <img src="./img/tmp_2in1_page9.png" width="15%" height="15%"/>
     <img src="./img/tmp_2in1_page10.png" width="15%" height="15%"/>
     <img src="./img/tmp_2in1_page11.png" width="15%" height="15%"/>
-    <img src="./img/tmp_2in1_page12.png" width="15%" height="15%"/></br>
+    <img src="./img/tmp_2in1_page12.png" width="15%" height="15%"/></center></br>
 
 <!-- * pgfpages 套件 + Xelatex
     * 需加入以下指令
@@ -380,12 +380,12 @@ COME HERE!!!
 \pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm, landscape]
 ```
 * Template:
-    </br><img src="./img/tmp_4in1_page1.png" width="25%" height="25%"/>
+    </br><center><img src="./img/tmp_4in1_page1.png" width="25%" height="25%"/>
     <img src="./img/tmp_4in1_page2.png" width="25%" height="25%"/>
     <img src="./img/tmp_4in1_page3.png" width="25%" height="25%"/>
     <img src="./img/tmp_4in1_page4.png" width="25%" height="25%"/>
     <img src="./img/tmp_4in1_page5.png" width="25%" height="25%"/>
-    <img src="./img/tmp_4in1_page6.png" width="25%" height="25%"/></br>
+    <img src="./img/tmp_4in1_page6.png" width="25%" height="25%"/></center></br>
 
 ### 4.有筆記空間
 * `handoutWithNotes`
@@ -400,19 +400,19 @@ border shrink=5mm]
 ```
 * Template:
     * 直向:
-        </br><img src="./img/tmp_NoteRight_page1.png" width="25%" height="25%"/></br>
+    </br><center><img src="./img/tmp_NoteRight_page1.png" width="50%" height="50%"/></center></br>
     * 橫向:
-        </br><img src="./img/tmp_NoteHorizontal_page1.png" width="25%" height="25%"/></br>
+    </br><center><img src="./img/tmp_NoteHorizontal_page1.png" width="50%" height="50%"/></center></br>
 ## 進階 --- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
 ### 1.加入Logo
 * logo.png
-</br><img src="logo.png" width="25%" height="25%"/></br>  
+</br><center><img src="logo.png" width="25%" height="25%"/></center></br>  
 
 ```Latex
 \logo{\includegraphics{logo.png}}
 ```
 * Template:
-    </br><img src="./img/tmp_logo_page1.png" width="25%" height="25%"/></br>
+</br><center><img src="./img/tmp_logo_page1.png" width="50%" height="50%"/></center></br>
 ### 2.自訂顏色
 ```Latex
 \definecolor{mycolor}{rgb}{0.2, 0.4, 0}
@@ -425,16 +425,16 @@ border shrink=5mm]
 \setbeamercolor{normal text}{fg=Green,bg=LightGray}
 ```
 * Template:
-    </br><img src="./img/tmp_fg_bg_page1.png" width="25%" height="25%"/></br>
+</br><center><img src="./img/tmp_fg_bg_page1.png" width="50%" height="50%"/></center></br>
 ### 4.以圖片為背景
-</br><img src="test_pg.png" width="25%" height="25%"/></br> 
+</br><center><img src="test_pg.png" width="25%" height="25%"/></center></br> 
 
 ```Latex
 \usebackgroundtemplate{\includegraphics[width=
 \paperwidth]{test_pg.png}}
 ```
 * Template:
-    </br><img src="./img/tmp_bg_page1.png" width="25%" height="25%"/></br>
+</br><center><img src="./img/tmp_bg_page1.png" width="50%" height="50%"/></center></br>
 ### 5.加入影片[win10有問題]
 * multimedia套件
 * 重覆播放
@@ -442,4 +442,5 @@ border shrink=5mm]
 \usepackage{multimedia}
 \movie[width=5cm,height=2.8cm,loop]{}{test.avi}
 ```
-[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+<!-- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) -->
+[<center><button type="button">TOP</button></center>](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
