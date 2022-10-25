@@ -449,9 +449,9 @@ border shrink=5mm]
 <center>
 <table>
   <tr>
-    <td>Home</td>
+    <td><a href="https://github.com/Wilhelmine21">Home</a></td>
     <td><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></td>
-    <td>LaTeX-tikz</td>
+    <td><a href="https://github.com/Wilhelmine21/LaTeX-tikz#latex">LaTeX-tikz</a></td>
   </tr>
 </table>
 </center>
