@@ -86,7 +86,7 @@
 ```LaTeX
 \usetheme{ThemeName}
 ```
-## 內建主題  
+### 內建主題  
 |AnnArbor|Dresden |Marburg |
 |:-:|:-:|:-:|
 |Antibes |Frankfurt |Montpellier |
@@ -442,4 +442,5 @@ border shrink=5mm]
 \usepackage{multimedia}
 \movie[width=5cm,height=2.8cm,loop]{}{test.avi}
 ```
-[TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex)
+<!-- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) -->
+<center><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></center>
