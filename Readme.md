@@ -444,3 +444,5 @@ border shrink=5mm]
 ```
 <!-- [TOP](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex) -->
 <center><a href="https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#how-to-create-a-ppt-using-latex">TOP</a></center>
+
+<p style="text-align:left;"><a href="https://github.com/Wilhelmine21">Home</a><span style="float:right;"><a href="https://github.com/Wilhelmine21/LaTeX-tikz#latex">LaTeX-tikz</a></span></p>
