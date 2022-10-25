@@ -1,0 +1,7 @@
+\frametitle{顯示程式碼}
+\begin{block}{程式碼}
+\begin{verbatim}
+for i in range(0,100):
+    print i
+\end{verbatim}
+\end{block}

@@ -9,14 +9,27 @@
 %印出2張/1page, 直向
 %\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
 %印出4張/1page, 橫向
-\pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm, landscape]
+%\pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm, landscape]
+
+\usepackage{handoutWithNotes}
+%\pgfpagesuselayout{4 on 1 with notes}[a4paper,border shrink=5mm]
+%\pgfpagesuselayout{2 on 1 with notes landscape}[a4paper,border shrink=5mm]
 
 \usepackage{verbatim}
 \usepackage{xeCJK}
 \setCJKmainfont{微軟正黑體}
 \setbeamertemplate{navigation symbols}{}% 隱藏提示欄
 
+%\setbeamercolor{normal text}{fg=Green,bg=LightGray}
+
+%\usebackgroundtemplate{\includegraphics[width=
+%\paperwidth]{test_pg.png}}
+
+\usepackage{graphicx}
+\usepackage{multimedia}
+%%%%%%%%%%%%%%%%%
 \begin{document}
+%\logo{\includegraphics{logo.png}}
 \title[Your Title\hspace{14em}\insertframenumber/\inserttotalframenumber]
 {Your Title}
 
@@ -144,9 +157,15 @@ COME HERE!!!
 \end{column}
 \end{columns}
 \end{frame}
+%%%----------------------------%%%
+\begin{frame}
+
+\movie[width=8cm,height=4.5cm]{test}{test.avi}
+
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%\section{}
 %%\begin{frame}
 %%\end{frame}
-
+%%%%%%%%
 \end{document}

@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{封面}{1}{0}{1}
+\beamer@sectionintoc {2}{內容控制}{3}{0}{2}
+\beamer@sectionintoc {3}{文字變化}{15}{0}{3}
+\beamer@sectionintoc {4}{其他}{21}{0}{4}
