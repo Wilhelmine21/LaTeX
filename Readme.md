@@ -26,7 +26,7 @@
     * 3. [跳到指定的投影片](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#3%E8%B7%B3%E5%88%B0%E6%8C%87%E5%AE%9A%E7%9A%84%E6%8A%95%E5%BD%B1%E7%89%87)
     * 4. [多欄式的投影片](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#4%E5%A4%9A%E6%AC%84%E5%BC%8F%E7%9A%84%E6%8A%95%E5%BD%B1%E7%89%87)
     * 5. [縮小參數&印出頁碼指令](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#5%E7%B8%AE%E5%B0%8F%E5%8F%83%E6%95%B8%E5%8D%B0%E5%87%BA%E9%A0%81%E7%A2%BC%E6%8C%87%E4%BB%A4)
-* VI. [印講義]https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#%E5%8D%B0%E8%AC%9B%E7%BE%A9-----top)
+* VI. [印講義](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#%E5%8D%B0%E8%AC%9B%E7%BE%A9-----top)
     * 1. [加入handout 參數](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#1%E5%8A%A0%E5%85%A5handout-%E5%8F%83%E6%95%B8)
     * 2. [1Page A4->印出N張投影片](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#2-1page-a4-%E5%8D%B0%E5%87%BAn%E5%BC%B5%E6%8A%95%E5%BD%B1%E7%89%87)
     * 3. [橫向印出](https://github.com/Wilhelmine21/LaTeX-Beamer-PPT#3%E6%A9%AB%E5%90%91%E5%8D%B0%E5%87%BA)
