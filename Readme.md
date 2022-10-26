@@ -414,7 +414,7 @@ for i in range(0,100):
 
 ### 1.加入Logo
 * logo.png
-</br><center><img src="logo.png" width="25%" height="25%"/></center></br>  
+</br><center><img src="./tex/SourceFiles/logo.png" width="25%" height="25%"/></center></br>  
 
     ```Latex
     \logo{\includegraphics{logo.png}}
@@ -436,7 +436,7 @@ for i in range(0,100):
 * Template:
 </br><center><img src="./img/tmp_fg_bg_page1.png" width="50%" height="50%"/></center></br>
 ### 4.以圖片為背景
-</br><center><img src="test_pg.png" width="25%" height="25%"/></center></br> 
+</br><center><img src="./tex/SourceFiles/test_pg.png" width="25%" height="25%"/></center></br> 
 
 ```Latex
 \usebackgroundtemplate{\includegraphics[width=
